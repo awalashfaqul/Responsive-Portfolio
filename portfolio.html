@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My work</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <input type="checkbox" id="isChecked" />
+        <label for="isChecked" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <a href="index.html" class="logo">Ashfaqul</a>
+        <ul class="navlinks">
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="cv.html">CV/Resume</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="portfolio-content">
+        <div class="heading">
+          <h3 class="title">My works</h3>
+          <p class="separator"></p>
+        </div>
+        <div class="portfolio">
+          <h4>Projects List:</h4>
+          <ul class="projectlist">
+            <li><p>Academy Management App</p></li>
+            <img src="img/school-management.jpeg" alt="Academy-management-app" style="width: 100%;" />
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">More info</button>
+            <div id="id01" class="port-modal">
+              <div class="port-modal-content">
+                <p>This lab demonstrates the learned skills with SQL and C#, which means that I can connect to and call a database using SQL.</p>
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              </div>
+            </div>
+
+            <li><p>Music Interest Tracker</p></li>
+            <img src="img/music-interest.jpeg" alt="Music Interest Tracker" style="width: 100%;" />
+            <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">More info</button>
+            <div id="id02" class="port-modal">
+              <div class="port-modal-content">
+                <p>This lab project is a group work. For this project, we have built a web API and a client. The API uses a REST architecture and enables external services and applications to retrieve and change data in the application. It uses both a database and retrieval of information from an external API. We have named this project "music-interest-tracker".</p>
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+              </div>
+            </div>
+
+            <li><p>Number Guessing Game</p></li>
+            <img src="img/guess-the-number.png" alt="Number guessing game" style="width: 100%;" />
+            <button onclick="document.getElementById('id03').style.display='block'" style="width:auto;">More info</button>
+            <div id="id03" class="port-modal">
+              <div class="port-modal-content">
+                <p>This program is about creating a fairly simple game where the user has to guess a number. The user will be given some hints and has a limited number of attempts to guess.</p>
+                <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+              </div>
+            </div>
+
+            <li><p>Working with Threads: Car Race</p></li>
+            <img src="img/threads-race.png" alt="Car Race" style="width: 100%;" />
+            <button onclick="document.getElementById('id04').style.display='block'" style="width:auto;">More info</button>
+            <div id="id04" class="port-modal">
+              <div class="port-modal-content">
+                <p>This project is to build a program that simulates a car race where three (03) cars race against each other. There are no graphics, only in the console, but the cars will run in different threads and really compete against each other.</p>
+                <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">&times;</span>
+              </div>
+            </div>
+
+            <li><p>Mini-project: Introduction to Minimal API</p></li>
+            <img src="img/minimal-API.png" alt="minimal API" style="width: 100%;" />
+            <button onclick="document.getElementById('id05').style.display='block'" style="width:auto;">More info</button>
+            <div id="id05" class="port-modal">
+              <div class="port-modal-content">
+                <p>This lab work is about building a simple Web API. The API uses a REST architecture and has enabled external services and applications to retrieve and change data in the application.</p>
+                <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">&times;</span>
+              </div>
+            </div>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
