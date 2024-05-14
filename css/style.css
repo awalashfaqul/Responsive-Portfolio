@@ -216,11 +216,11 @@ li a.active {
   right: 10px;
   cursor: pointer;
   font-size: 20px;
-  color: #888;
+  color: #ef0303;
 }
 
 .easter-close:hover {
-  color: #000;
+  color: #f9f5f5;
 }
 
 /*Contact page*/
