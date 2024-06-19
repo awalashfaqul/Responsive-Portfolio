@@ -81,6 +81,7 @@ li a.active {
 
 .container {
   width: 70%;
+  height: auto;
   background: #fff;
   border-radius: 6px;
   padding: 40px;
@@ -663,7 +664,7 @@ hr {
   }
  .content .left-side{
    width: 100%;
-   flex-direction: row;
+   flex-direction: column;
    justify-content: center;
    flex-wrap: wrap;
  }
